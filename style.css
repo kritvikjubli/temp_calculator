@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+#celcius, #farenheit, #kelvin{
+    @apply flex justify-center items-center mt-[25px]
+}
+input{
+    @apply flex-[5] h-[60px] font-semibold text-center border-none outline-none rounded-l-lg p-[0px_10px]
+}
+.icon{
+    @apply flex-1 h-[60px] leading-[60px]  p-[0px_6px] text-center text-3xl bg-[#4d5964] rounded-r-lg text-slate-300
+}
+
+@tailwind utilities;

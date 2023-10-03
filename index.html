@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+</head>
+<body class="flex justify-center items-center  min-h-[100vh] bg-gradient-to-bl from-blue-600 to-blue-400 via-slate-300">
+    <div class="">
+
+        <div class="container max-w-md bg-gradient-to-b from-gray-800 to-gray-600 via-slate-600  border  rounded-lg shadow-[0px_0px_15px_3px] shadow-black p-5">
+            <div class="title flex justify-center items-center flex-wrap-reverse gap-3 p-5 ">
+                <h1 class="tracking-[1.2px] text-3xl  font-bold text-slate-300">Temperature Converter</h1>
+                <span class="tempimg w-12 "><img src="./images/temp.png" alt="#"></span>
+            </div>
+            
+            <div id="celcius">
+                <input id="c" type="number" name="" placeholder="Celcius" >
+                <span class="icon">&#8451;</span>
+            </div>
+            
+            <div id="farenheit">
+                <input id="f" type="number" name="" placeholder="Farenheit" >
+                <span class="icon">&#8457;</span>
+            </div>
+            
+            <div id="kelvin">
+                <input id="k" type="number" name="" placeholder="Kelvin" >
+                <span class="icon">&#8490;</span>
+        </div>
+        <div class="mt-[25px] text-center">
+            <button class="bg-slate-300 rounded-md duration-300 px-3 py-1 hover:bg-slate-500" >Clear All</button>
+        </div>
+        
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
